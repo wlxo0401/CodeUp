@@ -7,9 +7,12 @@
 
 a, b, c = map(int, input().split(" "))
 
-d = (a + b + c)
+sum = (a + b + c) % 1000
+print(sum)
+summ = int(sum/100)
+print(summ)
 
-g = d - (d%100)
-
-print(g)
-
+if summ % 2 == 0:
+    print("대박")
+else:
+    print("그럭저럭")
