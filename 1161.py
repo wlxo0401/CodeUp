@@ -32,7 +32,7 @@ else:
     print("홀수",end=" = ")
 
 if (a + b) % 2 == 0:
-    print("짝수{}".format(a+b))
+    print("짝수")
 else:
-    print("홀수{}".format(a+b))
+    print("홀수")
 
