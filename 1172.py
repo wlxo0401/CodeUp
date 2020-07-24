@@ -5,9 +5,7 @@
 # 5 8 2   ====> 2 5 8    로 출력
 
 
-a, b, c = map(int, input().split(" "))
+a = list(map(int, input().split(" ")))
+a = sorted(a)
 
-max = 0
-
-if a > max:
-    max = a
+print("{} {} {}".format(a[0], a[1], a[2]))
