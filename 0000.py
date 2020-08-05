@@ -1,21 +1,18 @@
-# 실험실입니다.
 
 
-a = 5
-# 리스트 안에 들어갈 수
-# 0 1 2 3 4
-b = [2, 4, 6, 1, 7]
-i = 4
-
-if i == 0:
-    print(b[0], end=" ")
-elif i == ((a + 1) / 2) - 1:
-    print(b[i], end=" ")
-elif i == a - 1:
-    print(b[i])
 
 
-# 3 1 = 2
-# 5 2 = 3
-# 7 3 = 4
-# 9 4 = 5
+
+
+price = 10000
+percent = 10
+
+sum = price
+
+print(sum + (price * (10 / 100)))
+sum = sum + (price * (10 / 100))
+print(sum + (sum * (-10 / 100)))
+sum = sum + (sum * (-10 / 100))
+print(sum + (sum * (5 / 100)))
+sum = sum + (sum * (5 / 100))
+print(sum + (sum * (-5 / 100)))
