@@ -11,7 +11,7 @@
 
 num = int(input())
 
-nums = list(map(int, input().split(" ")))
+nums = list(map(int, input().split()))
 
 for j in range(2):
     for i in range(0, num, 1):
